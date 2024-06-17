@@ -4,7 +4,7 @@
 			{
 				"json": "KPDM",
 				"abbreviation": "DM",
-				"full": "Deep Magic",
+				"full": "Deep Magic (2018)",
 				"url": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition/",
 				"authors": [
 					"Kobold Press",
@@ -48,7 +48,7 @@
 			"Mastery": "Mastery",
 			"Rune": "Rune"
 		},
-		"status": "ready",
+		"status": "deprecated",
 		"dateAdded": 1614875938,
 		"dateLastModified": 1708296967,
 		"_dateLastModifiedHash": "c2c3ed3806"

@@ -1,0 +1,47 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "KoboldPressDeepMagic12023",
+				"abbreviation": "DMV1",
+				"full": "Deep Magic Volume 1 (2023)",
+				"url": "https://koboldpress.com/kpstore/product/deep-magic-volume-1-2-2023/",
+				"version": "1.0.0",
+				"authors": [
+					"Kobold Press",
+					"Dan Dillon",
+					"Chris Harris",
+					"Jeff Lee",
+					"Celeste Conowitch",
+					"Jon Sawatsky"
+				],
+				"convertedBy": [
+					"Frost2779"
+				],
+				"color": "27FF00"
+			}
+		],
+		"status": "wip",
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"class": [],
+	"classFeature": [],
+	"classFluff": [],
+	"subclass": [],
+	"subclassFeature": [],
+	"subclassFluff": [],
+	"background": [],
+	"backgroundFeature": [],
+	"backgroundFluff": [],
+	"spell": [],
+	"spellFluff": [],
+	"spellList": [],
+	"monster": [],
+	"monsterfeatures": [],
+	"monsterFluff": [],
+	"book": [],
+	"bookData": [],
+	"table": []
+}
