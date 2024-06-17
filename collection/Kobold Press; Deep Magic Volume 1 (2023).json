@@ -3,7 +3,7 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "KoboldPressDeepMagic12023",
+				"json": "KoboldPressDeepMagicVolume12023",
 				"abbreviation": "DMV1",
 				"full": "Deep Magic Volume 1 (2023)",
 				"url": "https://koboldpress.com/kpstore/product/deep-magic-volume-1-2-2023/",
@@ -26,9 +26,476 @@
 		"dateAdded": 0,
 		"dateLastModified": 0
 	},
-	"class": [],
-	"classFeature": [],
-	"classFluff": [],
+	"class": [
+		{
+			"name": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"hd": {
+				"number": 1,
+				"faces": 6
+			},
+			"proficiency": ["int", "wis"],
+			"startingProficiencies": {
+				"weapons": ["Daggers, darts, slings, quarterstaffs"],
+				"skills": [{
+					"choose": {
+						"count": 2,
+						"from": ["arcana", "history", "insight", "investigation", "medicine", "religion"]
+					}
+				}]
+			},
+			"spellcastingAbility": "int",
+			"classTableGroups": [
+				{
+					"colLabels": ["Cantrips Known"],
+					"rows": [[3],[3],[3],[4],[4],[4],[4],[4],[4],[5],[5],[5],[5],[5],[5],[5],[5],[5],[5],[5]]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Theurge}",
+						"{@filter 2nd|spells|level=2|class=Theurge}",
+						"{@filter 3rd|spells|level=3|class=Theurge}",
+						"{@filter 4th|spells|level=4|class=Theurge}",
+						"{@filter 5th|spells|level=5|class=Theurge}",
+						"{@filter 6th|spells|level=6|class=Theurge}",
+						"{@filter 7th|spells|level=7|class=Theurge}",
+						"{@filter 8th|spells|level=8|class=Theurge}",
+						"{@filter 9th|spells|level=9|class=Theurge}"
+					],
+					"rows": [
+						[2,0,0,0,0,0,0,0,0],
+						[3,0,0,0,0,0,0,0,0],
+						[4,2,0,0,0,0,0,0,0],
+						[4,3,0,0,0,0,0,0,0],
+						[4,3,2,0,0,0,0,0,0],
+						[4,3,3,0,0,0,0,0,0],
+						[4,3,3,1,0,0,0,0,0],
+						[4,3,3,2,0,0,0,0,0],
+						[4,3,3,3,1,0,0,0,0],
+						[4,3,3,3,2,0,0,0,0],
+						[4,3,3,3,2,1,0,0,0],
+						[4,3,3,3,2,1,0,0,0],
+						[4,3,3,3,2,1,1,0,0],
+						[4,3,3,3,2,1,1,0,0],
+						[4,3,3,3,2,1,1,1,0],
+						[4,3,3,3,2,1,1,1,0],
+						[4,3,3,3,3,1,1,1,1],
+						[4,3,3,3,3,1,1,1,1],
+						[4,3,3,3,3,2,1,1,1],
+						[4,3,3,3,3,2,2,1,1]
+					]
+				}
+			],
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item quarterstaff|phb} or (b) a {@item dagger|phb}",
+					"(a) a {@item component pouch|php} or (b) an {@item arcane focus|php} or {@item holy symbol|php}",
+					"(a) a {@item scholar’s pack|php} or (b) an {@item explorer’s pack|php}",
+					"A theurgic libram"
+				]
+			},
+			"subclassTitle": "Theurgic Devotions",
+			"classFeatures": [
+				"Spellcasting|Theurge|KoboldPressDeepMagicVolume12023|1",
+				"Spell Nexus|Theurge|KoboldPressDeepMagicVolume12023|1",
+				"Summon Libram|Theurge|KoboldPressDeepMagicVolume12023|2",
+				"Theurgic Devotion|Theurge|KoboldPressDeepMagicVolume12023|3",
+				"Ability Score Improvement|Theurge|KoboldPressDeepMagicVolume12023|4",
+				"Theurgic Insight (d6)|Theurge|KoboldPressDeepMagicVolume12023|5",
+				{
+					"classFeature": "Theurgic Devotion Feature|Theurge|KoboldPressDeepMagicVolume12023|6",
+					"gainSubclassFeature": true
+				},
+				"Superior Focus|Theurge|KoboldPressDeepMagicVolume12023|7",
+				"Ability Score Improvement|Theurge|KoboldPressDeepMagicVolume12023|8",
+				"Spell Synthesis (3rd Level)|Theurge|KoboldPressDeepMagicVolume12023|9",
+				{
+					"classFeature": "Theurgic Devotion Feature|Theurge|KoboldPressDeepMagicVolume12023|10",
+					"gainSubclassFeature": true
+				},
+				"Theurgic Insight (d8)|Theurge|KoboldPressDeepMagicVolume12023|11",
+				"Ability Score Improvement|Theurge|KoboldPressDeepMagicVolume12023|12",
+				"Spell Synthesis (4th Level)|Theurge|KoboldPressDeepMagicVolume12023|13",
+				{
+					"classFeature": "Theurgic Devotion Feature|Theurge|KoboldPressDeepMagicVolume12023|14",
+					"gainSubclassFeature": true
+				},
+				"Innate Spells|Theurge|KoboldPressDeepMagicVolume12023|15",
+				"Ability Score Improvement|Theurge|KoboldPressDeepMagicVolume12023|16",
+				"Innate Spells Improvement|Theurge|KoboldPressDeepMagicVolume12023|17",
+				"Theurgic Insight (d10)|Theurge|KoboldPressDeepMagicVolume12023|17",
+				"Spell Synthesis (5th Level)|Theurge|KoboldPressDeepMagicVolume12023|18",
+				"Ability Score Improvement|Theurge|KoboldPressDeepMagicVolume12023|19",
+				"Theurge Supreme|Theurge|KoboldPressDeepMagicVolume12023|20"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Spellcasting",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 1,
+			"entries": [
+				"As a student of magic, you can cast cleric and wizard spells.",
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"At 1st level, you know one cantrip of your choice from the cleric spell list, one cantrip of your choice from the wizard spell list, and a third cantrip from either the cleric or wizard spell list (your choice). You learn additional cleric or wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Theurge table."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Theurgic Libram",
+					"entries": [
+						"At 1st level, you learn the ritual to create a theurgic libram. This ritual takes 1 hour, during which time you construct your libram and then magically bond with it.",
+						"Your theurgic libram contains six 1st-level spells of your choice. You can choose these spells from the cleric or wizard spell lists, but at least two of these spells must be from the cleric spell list and at least two must be from the wizard spell list.",
+						"The spells that you add to your theurgic libram as you gain levels reflect the magical and esoteric research you conduct on your own, as well as intellectual breakthroughs you have made about the nature of magic.",
+						{
+							"type": "entries",
+							"name": "Replacing the Libram",
+							"entries": [
+								"If your theurgic libram is lost or destroyed, you can create a new one by performing the same ritual, which requires a number of hours equal to the highest spell level contained in your libram (so if the libram contained 1st-level spells only, the ritual to replace it takes 1 hour, but if the libram contained 1st, 2nd, and 3rd-level spells, the ritual takes 3 hours). The contents of your new libram are identical to the contents of your previous libram.",
+								"You can’t have more than one theurgic libram at a time. If it still exists, your previous libram vanishes the moment you complete the ritual to create a replacement libram."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Libram’s Appearance",
+							"entries": [
+								"Your theurgic libram is a unique compilation of spells with its own decorative flourishes and margin notes. It might appear plain and functional, resembling a gift you once received from your master, or be a finely bound, gilt-edged prayer tome worthy of an ancient temple or even be a simple, dog-eared journal you crafted yourself."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Preparing and Casting Spells",
+					"entries": [
+						"The Theurge table shows how many spell slots you have to cast your cleric or wizard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest. For example, if you know the 1st-level spell cure wounds and have a 1st-level and a 2nd‑level spell slot available, you can cast cure wounds using either slot.",
+						"You prepare the list of cleric and wizard spells that are available for you to cast. To do so, choose a number of cleric or wizard spells from your theurgic libram equal to your Intelligence modifier + your theurge level (minimum of one spell). The spells must be of a level for which you have spell slots.",
+						"For example, if you’re a 3rd-level theurge, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your theurgic libram. If you prepare the 1st-level spell cure wounds or magic missile, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn’t remove it from your list of prepared spells.",
+						"You can change your list of prepared spells when you finish a long rest. Preparing a new list of spells requires time spent studying your theurgic libram and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your prepared spell list."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Intelligence is your spellcasting ability for both your cleric and wizard spells since you learn your spells through dedicated study and mental discipline. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a cleric or wizard spell that you cast and when making an attack roll with one.",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"int"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"int"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ritual Casting",
+					"entries": [
+						"You can cast a cleric or wizard spell as a ritual if that spell has the ritual tag and you have the spell in your theurgic libram. You don’t need to have the spell prepared to cast it as a ritual."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use either an arcane focus or holy symbol as a spellcasting focus for both your cleric and wizard spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Learning Spells of 1st Level and Higher",
+					"entries": [
+						"Each time you gain a theurge level, you can add three spells of your choice from the cleric or wizard spell lists to your libram. At least one of these spells must be from the cleric spell list, and at least one must be from the wizard spell list. Each of these spells must be of a level for which you have spell slots, as shown in the Theurge table."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spell Nexus",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 1,
+			"entries": [
+				"While your theurgic libram is on your person, you can use a bonus action to open a magical conduit between you and it, allowing you to instantly replace one spell you currently have prepared with another spell of the same level transcribed within the libram. For example, if you’re a 3rd‑level theurge, you could instantly replace one 1st-level spell you currently have prepared with another 1st-level spell transcribed in your libram.",
+				"You can’t use this feature again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Summon Libram",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you are able to sense the location of your theurgic libram, as long as it is within 100 feet of you. If your libram is within this range, you can use a bonus action to cause it to instantly teleport to your hand.",
+				"Beginning at 9th level, you can sense the location of your theurgic libram and summon it to you as long as it is on the same plane of existence as you. If the libram is not on the same plane of existence, you learn which plane it is on but not the exact location within the plane."
+			]
+		},
+		{
+			"name": "Theurgic Devotion",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 3,
+			"entries": [
+				"When you reach 3rd level, you choose a theurgic devotion which shapes your practice of magic. Choose one of the devotions detailed later in this section: the Dweomercrafter, Mystic, or Spell Siphon devotion. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th level."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Theurgic Insight (d6)",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 5,
+			"entries": [
+				"Starting at 5th level, you gain a pool of Theurgic Insight dice. Your Theurgic Insight dice start off as d6, and they become d8 at 11th level and d10 at 17th level. The number of Theurgic Insight dice in this pool is equal to your proficiency bonus.",
+				"When you make an ability check that uses either the Arcana or Religion proficiencies, you can expend one Theurgic Insight die and add the number rolled to your ability check. You can choose to do so after you roll the die for the ability check but must do so before the GM tells you whether you succeed or fail.",
+				"You regain any expended Theurgic Insight dice when you finish a long rest."
+			]
+		},
+		{
+			"name": "Theurgic Devotion Feature",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain a feature granted by your Theurgic Devotion."
+			]
+		},
+		{
+			"name": "Superior Focus",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 7,
+			"entries": [
+				"At 7th level, you can simultaneously maintain two spells that require concentration. One spell must be from the wizard spell list, and the other must be from the cleric spell list.",
+				"You must make a Constitution saving throw (DC equals 10 + the highest-level spell cast) at the beginning of each round in which you are attempting to maintain concentration on two spells. If you fail this save, you immediately lose both spells.",
+				"Additionally, while concentrating on two spells, you roll with disadvantage on Constitution saving throws to maintain concentration whenever you take damage. Anything that causes you to lose concentration, including being incapacitated or killed, causes you to lose both spells."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Spell Synthesis (3rd Level)",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 9,
+			"entries": [
+				"Beginning at 9th level, you can cast one wizard spell and one cleric spell that you have prepared on your turn. Both spells must be of 3rd level or lower, and each must have a casting time of 1 action or a bonus action. You expend spell slots for each spell as normal. Due to the intense effort this requires, you can’t take a reaction on the same round you use Spell Synthesis.",
+				"You must finish a long rest before you can use Spell Synthesis again.",
+				"Beginning at 13th level, you can use Spell Synthesis twice between rests, and the maximum level of the spells you can cast increases to 4th level. At 18th level, you can use Spell Synthesis three times between rests, and the maximum level of the spells you can cast increases to 5th level. When you finish a long rest, you regain any expended uses of Spell Synthesis."
+			]
+		},
+		{
+			"name": "Theurgic Devotion Feature",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain a feature granted by your Theurgic Devotion."
+			]
+		},
+		{
+			"name": "Theurgic Insight (d8)",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 11,
+			"entries": [
+				"The die used for your Theurgic Insight feature increases from a d6 to a d8."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Spell Synthesis (4th Level)",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 13,
+			"entries": [
+				"Your Spell Synthesis feature can now be used twice between rests, and the maximum level of the spells you can cast increases to 4th level."
+			]
+		},
+		{
+			"name": "Theurgic Devotion Feature",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 14,
+			"entries": [
+				"At 14th level, you gain a feature granted by your Theurgic Devotion."
+			]
+		},
+		{
+			"name": "Innate Spells",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 15,
+			"entries": [
+				"At 15th level, your mastery over spells allows you to cast a small number of them at will. You can choose a 1stlevel cleric spell and a 1st-level wizard in your theurgic libram. These spells may not be from the evocation school of magic. You can cast these spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either of these spells at a higher level, you must expend a spell slot as normal.",
+				"When you reach 17th level, you can add one additional cleric or wizard spell from your theurgic libram to your list of innate spells. This spell can be of either 1st level or 2nd level. In addition, you can now cast your innate spells without needing to prepare them.",
+				"As part of a long rest, you can exchange any of your innate spells for different spells in your theurgic libram of the same levels."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Innate Spells Improvement",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 17,
+			"entries": [
+				"You can now add one additional cleric or wizard spell from your theurgic libram to your list of innate spells. This spell can be of either 1st level or 2nd level. In addition, you can now cast your innate spells without needing to prepare them."
+			]
+		},
+		{
+			"name": "Theurgic Insight (d10)",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 17,
+			"entries": [
+				"The die used for your Theurgic Insight feature increases from a d8 to a d10."
+			]
+		},
+		{
+			"name": "Spell Synthesis (5th Level)",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 18,
+			"entries": [
+				"Your Spell Synthesis feature can now be used three between rests, and the maximum level of the spells you can cast increases to 5th level."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Theurge Supreme",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"level": 20,
+			"entries": [
+				"At 20th level, you can use Spell Nexus a number of times per day equal to your proficiency bonus.",
+				"Additionally, when you take damage, you no longer make your Constitution saving throws with disadvantage when using Superior Focus to maintain concentration on two spells."
+			]
+		}
+	],
+	"classFluff": [
+		{
+			"name": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Theurge",
+					"source": "KoboldPressDeepMagicVolume12023",
+					"entries": [
+						"The half-elf ’s eyes glitter as ice shards from the enemy’s spell pelt her and her companions. But as her fists clench and eyes flash, the spell harmlessly fizzles in the very air above them.",
+						"The tiny gnome thoughtfully strokes his long beard as he contemplates the vile creature slowly moving toward him, its jagged sword flashing in the torchlight. He sneers as the strange, eye-shaped tattoo on his forehead opens to fire a beam of powerful energy at the creature, rendering it momentarily stunned, and quickly follows it up with a barrage of spells from each hand.",
+						"Twirling his hands in intricate circles, the human furiously shapes and manipulates his spells in the very act of casting them. A fiery ball made of solid ice erupts from his hand, exploding among friend and foe alike, though only affecting his enemies while leaving his companions unharmed.",
+						"Some spend their lives poring over ancient tomes and texts. Others devote themselves to the gods, acting as emissaries of the divine. The theurge seeks to achieve a perfect balance between the arcane and the divine, blending both kinds of magic into a powerful and cohesive whole.",
+						{
+							"type": "entries",
+							"name": "Blending the Arcane and the Divine",
+							"entries": [
+								"Theurges revel in the unbridled wonders of magic, regardless of its source. They strive to refine their magical abilities, driven by their quest to accomplish ever greater feats of spellcasting. Many consider the theurge to be the epitome of what it means to be a spellcaster."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Divinity of Magic",
+							"entries": [
+								"Although many theurges worship a specific deity, often one devoted to magic, others choose to venerate personifications of magical forces or perhaps even magic itself. Theurges typically possess an unquenchable and obsessive thirst to further their understanding and mastery of spellcasting and magic. Their might lies in their ability to draw upon, combine, and manipulate multiple forms of magical power to overcome any obstacle."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating a Theurge",
+							"entries": [
+								"When creating a theurge, it is important to decide how and why you can blend such disparate forms of magic. Were you born with this ability? Were your powers a gift from a deity? Did you learn your craft through countless hours of solitary study?",
+								"You should also decide if you are a religious individual, actively working to promote the will of one or more particular deities. Alternatively, do you believe magic itself is worthy of divine reverence without the need for gods? Or perhaps you are an academic person, one who treats the acquisition of spells and magical power as a purely intellectual endeavor separate from the acknowledgement of such divinity.",
+								{
+									"type": "entries",
+									"name": "Quick Build",
+									"entries": [
+										"You can make a theurge quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by Wisdom. Second, choose the occultist (see Tome of Heroes) background or the acolyte from the core game."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
 	"subclass": [],
 	"subclassFeature": [],
 	"subclassFluff": [],
