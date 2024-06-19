@@ -36,12 +36,5 @@
 	"backgroundFeature": [],
 	"backgroundFluff": [],
 	"spell": [],
-	"spellFluff": [],
-	"spellList": [],
-	"monster": [],
-	"monsterfeatures": [],
-	"monsterFluff": [],
-	"book": [],
-	"bookData": [],
-	"table": []
+	"spellList": []
 }

@@ -16,9 +16,7 @@
 					"Celeste Conowitch",
 					"Jon Sawatsky"
 				],
-				"convertedBy": [
-					"Frost2779"
-				],
+				"convertedBy": ["Frost2779"],
 				"color": "27FF00"
 			}
 		],
@@ -30,6 +28,7 @@
 		{
 			"name": "Theurge",
 			"source": "KoboldPressDeepMagicVolume12023",
+			"page": 7,
 			"hd": {
 				"number": 1,
 				"faces": 6
@@ -37,18 +36,48 @@
 			"proficiency": ["int", "wis"],
 			"startingProficiencies": {
 				"weapons": ["Daggers, darts, slings, quarterstaffs"],
-				"skills": [{
-					"choose": {
-						"count": 2,
-						"from": ["arcana", "history", "insight", "investigation", "medicine", "religion"]
+				"skills": [
+					{
+						"choose": {
+							"count": 2,
+							"from": [
+								"arcana",
+								"history",
+								"insight",
+								"investigation",
+								"medicine",
+								"religion"
+							]
+						}
 					}
-				}]
+				]
 			},
 			"spellcastingAbility": "int",
 			"classTableGroups": [
 				{
 					"colLabels": ["Cantrips Known"],
-					"rows": [[3],[3],[3],[4],[4],[4],[4],[4],[4],[5],[5],[5],[5],[5],[5],[5],[5],[5],[5],[5]]
+					"rows": [
+						[3],
+						[3],
+						[3],
+						[4],
+						[4],
+						[4],
+						[4],
+						[4],
+						[4],
+						[5],
+						[5],
+						[5],
+						[5],
+						[5],
+						[5],
+						[5],
+						[5],
+						[5],
+						[5],
+						[5]
+					]
 				},
 				{
 					"title": "Spell Slots per Spell Level",
@@ -64,26 +93,26 @@
 						"{@filter 9th|spells|level=9|class=Theurge}"
 					],
 					"rows": [
-						[2,0,0,0,0,0,0,0,0],
-						[3,0,0,0,0,0,0,0,0],
-						[4,2,0,0,0,0,0,0,0],
-						[4,3,0,0,0,0,0,0,0],
-						[4,3,2,0,0,0,0,0,0],
-						[4,3,3,0,0,0,0,0,0],
-						[4,3,3,1,0,0,0,0,0],
-						[4,3,3,2,0,0,0,0,0],
-						[4,3,3,3,1,0,0,0,0],
-						[4,3,3,3,2,0,0,0,0],
-						[4,3,3,3,2,1,0,0,0],
-						[4,3,3,3,2,1,0,0,0],
-						[4,3,3,3,2,1,1,0,0],
-						[4,3,3,3,2,1,1,0,0],
-						[4,3,3,3,2,1,1,1,0],
-						[4,3,3,3,2,1,1,1,0],
-						[4,3,3,3,3,1,1,1,1],
-						[4,3,3,3,3,1,1,1,1],
-						[4,3,3,3,3,2,1,1,1],
-						[4,3,3,3,3,2,2,1,1]
+						[2, 0, 0, 0, 0, 0, 0, 0, 0],
+						[3, 0, 0, 0, 0, 0, 0, 0, 0],
+						[4, 2, 0, 0, 0, 0, 0, 0, 0],
+						[4, 3, 0, 0, 0, 0, 0, 0, 0],
+						[4, 3, 2, 0, 0, 0, 0, 0, 0],
+						[4, 3, 3, 0, 0, 0, 0, 0, 0],
+						[4, 3, 3, 1, 0, 0, 0, 0, 0],
+						[4, 3, 3, 2, 0, 0, 0, 0, 0],
+						[4, 3, 3, 3, 1, 0, 0, 0, 0],
+						[4, 3, 3, 3, 2, 0, 0, 0, 0],
+						[4, 3, 3, 3, 2, 1, 0, 0, 0],
+						[4, 3, 3, 3, 2, 1, 0, 0, 0],
+						[4, 3, 3, 3, 2, 1, 1, 0, 0],
+						[4, 3, 3, 3, 2, 1, 1, 0, 0],
+						[4, 3, 3, 3, 2, 1, 1, 1, 0],
+						[4, 3, 3, 3, 2, 1, 1, 1, 0],
+						[4, 3, 3, 3, 3, 1, 1, 1, 1],
+						[4, 3, 3, 3, 3, 1, 1, 1, 1],
+						[4, 3, 3, 3, 3, 2, 1, 1, 1],
+						[4, 3, 3, 3, 3, 2, 2, 1, 1]
 					]
 				}
 			],
@@ -101,7 +130,10 @@
 				"Spellcasting|Theurge|KoboldPressDeepMagicVolume12023|1",
 				"Spell Nexus|Theurge|KoboldPressDeepMagicVolume12023|1",
 				"Summon Libram|Theurge|KoboldPressDeepMagicVolume12023|2",
-				"Theurgic Devotion|Theurge|KoboldPressDeepMagicVolume12023|3",
+				{
+					"classFeature": "Theurgic Devotion|Theurge|KoboldPressDeepMagicVolume12023|3",
+					"gainSubclassFeature": true
+				},
 				"Ability Score Improvement|Theurge|KoboldPressDeepMagicVolume12023|4",
 				"Theurgic Insight (d6)|Theurge|KoboldPressDeepMagicVolume12023|5",
 				{
@@ -190,16 +222,12 @@
 						{
 							"type": "abilityDc",
 							"name": "Spell",
-							"attributes": [
-								"int"
-							]
+							"attributes": ["int"]
 						},
 						{
 							"type": "abilityAttackMod",
 							"name": "Spell",
-							"attributes": [
-								"int"
-							]
+							"attributes": ["int"]
 						}
 					]
 				},
@@ -496,19 +524,500 @@
 			]
 		}
 	],
-	"subclass": [],
-	"subclassFeature": [],
-	"subclassFluff": [],
+	"subclass": [
+		{
+			"name": "Dweomercrafter",
+			"shortName": "Dweomercrafter",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"page": 12,
+			"subclassFeatures": [
+				"Dweomercraft Initiate|Theurge|KoboldPressDeepMagicVolume12023|Dweomercrafter|KoboldPressDeepMagicVolume12023|3",
+				"Spellweaver|Theurge|KoboldPressDeepMagicVolume12023|Dweomercrafter|KoboldPressDeepMagicVolume12023|6",
+				"Dweomercraft Adept|Theurge|KoboldPressDeepMagicVolume12023|Dweomercrafter|KoboldPressDeepMagicVolume12023|10",
+				"Dweomercraft Master|Theurge|KoboldPressDeepMagicVolume12023|Dweomercrafter|KoboldPressDeepMagicVolume12023|14"
+			]
+		},
+		{
+			"name": "Mystic",
+			"shortName": "Mystic",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"page": 12,
+			"subclassFeatures": [
+				"Third Eye|Theurge|KoboldPressDeepMagicVolume12023|Mystic|KoboldPressDeepMagicVolume12023|3",
+				"Psychic Blast|Theurge|KoboldPressDeepMagicVolume12023|Mystic|KoboldPressDeepMagicVolume12023|6",
+				"Psychic Shield|Theurge|KoboldPressDeepMagicVolume12023|Mystic|KoboldPressDeepMagicVolume12023|10",
+				"Psychic Storm|Theurge|KoboldPressDeepMagicVolume12023|Mystic|KoboldPressDeepMagicVolume12023|14"
+			]
+		},
+		{
+			"name": "Spell Siphon",
+			"shortName": "Spell Siphon",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"page": 13,
+			"subclassFeatures": [
+				"Spell Siphon|Theurge|KoboldPressDeepMagicVolume12023|Spell Siphon|KoboldPressDeepMagicVolume12023|3",
+				"Spell Channel|Theurge|KoboldPressDeepMagicVolume12023|Spell Siphon|KoboldPressDeepMagicVolume12023|6",
+				"Spell Fizzle|Theurge|KoboldPressDeepMagicVolume12023|Spell Siphon|KoboldPressDeepMagicVolume12023|10",
+				"Spell Cache|Theurge|KoboldPressDeepMagicVolume12023|Spell Siphon|KoboldPressDeepMagicVolume12023|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Dweomercraft Initiate",
+			"className": "Theurge",
+			"subclassShortName": "Dweomercrafter",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"subclassSource": "KoboldPressDeepMagicVolume12023",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, you learn your first two dweomercraft discoveries. Your dweomercraft options are detailed below. You learn an additional such discovery at 6th, 10th, and 14th level.",
+				"You can use only one dweomercraft discovery on a spell when you cast it, unless otherwise noted. Spells modified by dweomercraft cannot also be modified by Metamagic:",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Accurate Spell",
+											"entries": [
+												"When you cast a spell that requires an attack roll, you have advantage on that roll. If the spell requires multiple attack rolls, you have advantage on only one (your choice)."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Branding Spell",
+											"entries": [
+												"When you hit a single creature with a spell that deals acid, cold, fire, force, lightning, necrotic, radiant, or thunder damage, the creature is marked by an invisible rune. Until the end of your next turn, any spell attack rolls against the same target have advantage if they are from spells that deal damage of the same type as the triggering spell."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Disarming Spell",
+											"entries": [
+												"When you hit a single creature with a spell that deals force damage, you can attempt to disarm it. The creature must succeed on a Strength saving throw or drop one object of your choice that it is currently holding. The dropped object lands in the target’s space."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Forceful Spell",
+											"entries": [
+												"When you hit a single creature that is Large or smaller with a spell that deals force damage, the creature must succeed on a Strength saving throw or be pushed up to 15 feet away from you."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Penetrating Spell",
+											"entries": [
+												"You increase the spell save DC of the spell by an amount equal to half your Wisdom modifier."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Piercing Spell",
+											"entries": [
+												"When you hit a single creature with a spell that deals damage, the spell ignores the creature’s resistance to a single damage type of your choice. Creatures that are normally immune to your chosen damage type take half damage instead of no damage."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Redirect Spell",
+											"entries": [
+												"When you cast a spell that targets a single creature but that has no effect on the target (such as due to a successful saving throw or a missed attack roll), you can redirect the spell to another eligible target within 15 feet of the initial target. If the spell requires any attack rolls, you must roll new ones against the new target. If the spell has no effect on the new target, the spell is lost."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Sculpt Spell",
+											"entries": [
+												"When you cast a spell that deals acid, cold, fire, force, lightning, necrotic, radiant, or thunder damage, you can change that damage type to another type from that list."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Selective Spell",
+											"entries": [
+												"When you cast a spell that forces targeted creatures to make a saving throw, you can protect some of those targets from the spell’s full force. Choose a number of targets up to your Intelligence modifier (minimum of one). A chosen target automatically succeeds on its saving throw against the spell."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Upcast Spell",
+											"entries": [
+												"You cast a spell that is treated as if it were cast using a spell slot of one level higher. This spell does not actually use a higher-level slot though."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				"You can use any combination of the dweomercraft discoveries you know a total number of times equal to your Intelligence modifier (minimum of one). You cannot use more until you finish a long rest.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Saving Throws",
+									"entries": [
+										"If a dweomercraft discovery requires your target to make a saving throw, it is against your theurge spell save DC."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Spellweaver",
+			"className": "Theurge",
+			"subclassShortName": "Dweomercrafter",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"subclassSource": "KoboldPressDeepMagicVolume12023",
+			"level": 6,
+			"entries": [
+				"Beginning at 6th level, when you cast a spell that affects an area, you can increase or decrease its area of effect. You can do this a number of times equal to your proficiency bonus. You regain any expended uses of this feature upon completing a long rest.",
+				"When you reach 11th level, you regain expended uses of Spellweaver when you finish a short or long rest.",
+				{
+					"type": "table",
+					"colLabels": ["Area of Effect", "Modification"],
+					"rows": [
+						[
+							"Cone",
+							"Increase or decrease the cone’s size by up to 10 feet"
+						],
+						[
+							"Cube",
+							"Increase or decrease the cube’s sides by up to 10 feet each"
+						],
+						[
+							"Cylinder",
+							"Increase or decrease the cylinder’s height or diameter by up to 10 feet"
+						],
+						[
+							"Line",
+							"Increase or decrease the line’s length by up to 10 feet"
+						],
+						[
+							"Sphere",
+							"Increase or decrease the sphere’s radius by up to 10 feet"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Dweomercraft Adept",
+			"className": "Theurge",
+			"subclassShortName": "Dweomercrafter",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"subclassSource": "KoboldPressDeepMagicVolume12023",
+			"level": 10,
+			"entries": [
+				"Beginning at 10th level, you can use the dweomercraft discoveries you know a total number of times equal to your Intelligence modifier + your Wisdom modifier.",
+				"In addition, you can use two dweomercraft discoveries you know on a single spell you cast. Alternatively, you can use a dweomercraft discovery on each spell you cast using the Spell Synthesis feature."
+			]
+		},
+		{
+			"name": "Dweomercraft Master",
+			"className": "Theurge",
+			"subclassShortName": "Dweomercrafter",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"subclassSource": "KoboldPressDeepMagicVolume12023",
+			"level": 14,
+			"entries": [
+				"At 14th level, you recover all expended uses of your dweomercraft discoveries when you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Third Eye",
+			"className": "Theurge",
+			"subclassShortName": "Mystic",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"subclassSource": "KoboldPressDeepMagicVolume12023",
+			"level": 3,
+			"entries": [
+				"At 3rd level, a mystical eye appears on your forehead. This eye can take the form of a stylized tattoo, an eye-shaped scar, or it could be an actual eye. The eye opens whenever you use one of your mystic powers. Otherwise, it remains closed.",
+				"Your third eye unlocks psionic energy from deep within, represented by a pool of psionic points. The number of psionic points you have is equal to your theurge level + your proficiency bonus.",
+				"You regain all spent psionic points when you finish a long rest. When you reach 9th level, you regain all spent psionic points when you finish a short or long rest.",
+				"As an action, you can expend one or more psionic points to fuel the mystical powers of your third eye (see below). Each power has a duration of 1 hour. You can only have one such power active at a time:",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "entries",
+							"entries": [
+								"You can detect the presence of secret or concealed doors or compartments within 30 feet of you.",
+								"Cost: 1 psionic point"
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								"You can see invisible creatures and objects within 30 feet of you as if they were visible.",
+								"Cost: 2 psionic points"
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								"You can see normally in darkness, both magical and nonmagical, to a distance of 60 feet.",
+								"Cost: 3 psionic points"
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								"You can detect visual illusions within 30 feet of you, and you automatically succeed on saving throws against them. You can also perceive the original form of a shapechanger or a creature transformed by magic.",
+								"Cost: 4 psionic points"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Psychic Blast",
+			"className": "Theurge",
+			"subclassShortName": "Mystic",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"subclassSource": "KoboldPressDeepMagicVolume12023",
+			"level": 6,
+			"entries": [
+				"Starting at 6th level, you can fire a blast of psychic energy from your third eye by expending one or more psionic points. As a bonus action, make a ranged spell attack against one creature you can see within 60 feet of you. On a hit, the target takes 1d8 psychic damage per psionic point spent, up to a maximum number of points equal to your proficiency bonus.",
+				"Psychic blasts are sometimes difficult to control and have the potential to deal significant psychic damage. If you roll an 8 on an individual damage die when you deal damage with your psychic blast, you can roll another d8 and add the result to the total. For example, if you roll 2d8 and the roll resulted in a 3 and an 8, you can roll one additional die (because you rolled one 8) and add the result to the current total of 11. When a damage die results in an 8, it is called a psionic surge.",
+				"If you roll an 8 again, you can roll the damage die again and add the result to the total, further increasing the psychic blast damage. Any of the damage dice for a psychic blast, including extra dice from a critical hit, can have a psionic surge and result in a reroll. For each psychic blast attack you make, the maximum number of psionic surge dice you can reroll is equal to your proficiency bonus, regardless of how many damage dice result in an 8. The additional damage dice rolled due to psionic surges do not cost additional psionic points.",
+				"For example, a 6th-level theurge mystic unleashes a psychic blast and scores a critical hit. The character spends 3 psionic points and rolls 6d8 damage dice (3d8 for the 3 psionic points spent plus 3d8 for the critical hit damage) which results in a 1, 3, 5, 8, 8 and another 8. The character then rerolls each 8, resulting in a 1, 3, and an 8. The character adds those results to the current damage total for a final damage total of 45. Since the character’s proficiency bonus is +3, the character can’t reroll the new 8, ending the psionic surge for that psychic blast attack. When that character makes another attack with psychic blast, this process begins anew.",
+				"Beginning at 11th level, a target hit by your psychic blast must also succeed on an Intelligence saving throw against your spell save DC or be stunned until the start of your next turn."
+			]
+		},
+		{
+			"name": "Psychic Shield",
+			"className": "Theurge",
+			"subclassShortName": "Mystic",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"subclassSource": "KoboldPressDeepMagicVolume12023",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain resistance to psychic damage.",
+				"As a bonus action, you can temporarily gain resistance to additional damage types by spending 1 psionic point per additional resistance. You can select resistance to damage types from the following list: acid, cold, fire, force, lightning, necrotic, radiant, or thunder. These additional resistances remain until the start of your next turn. You can keep, add, or remove these temporary resistances each new round by expending the appropriate number of additional psionic points. For example, as a bonus action, you could add resistance to force, radiant, and thunder damage by expending 3 psionic points. At the start of your next turn, you could use a new bonus action to keep resistance to force, radiant, and thunder damage, as well as add resistance to slashing damage, by expending 4 additional psionic points.",
+				"You can choose to extend your resistance to psychic damage, plus any additional temporary resistances, to friendly creatures within 10 feet of you. At 14th level, the range of your Psychic Shield increases to 15 feet, and at 18th level, it increases to 20 feet."
+			]
+		},
+		{
+			"name": "Psychic Storm",
+			"className": "Theurge",
+			"subclassShortName": "Mystic",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"subclassSource": "KoboldPressDeepMagicVolume12023",
+			"level": 14,
+			"entries": [
+				"At 14th level, as an action, you can spend 5 psionic points to release a storm of psychic energy. Each creature within a 30-foot radius of you must make an Intelligence saving throw against your spell save DC. Creatures that fail the save take 5d8 psychic damage and have disadvantage on attacks until the beginning of your next turn. Creatures that succeed on the save take half as much damage and do not have disadvantage on their attacks.",
+				"You can increase the damage by 1d8 per each additional psionic point spent beyond the initial 5 points.",
+				"Beginning at 18th level, you can use Psychic Storm as a bonus action."
+			]
+		},
+		{
+			"name": "Spell Siphon",
+			"className": "Theurge",
+			"subclassShortName": "Spell Siphon",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"subclassSource": "KoboldPressDeepMagicVolume12023",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you gain the ability to magically siphon the knowledge of how to cast a spell from another spellcaster in the very act of casting the spell. This can potentially allow you to learn a spell from a spell list other than that of the cleric or wizard.",
+				"If a creature that you can see within 30 feet of you casts a spell, you can use your reaction to attempt to learn the spell for yourself. To do so, you make an Intelligence check with a DC equal to 12 + the spell’s level.",
+				"If you succeed, you siphon the knowledge of the spell if it is at least 1st level and of a level you can cast. You can then immediately add this spell to your theurgic libram. You must replace a spell currently in your theurgic libram of the same level as the siphoned spell with the new spell. If you choose not to transfer the spell into your libram, the spell energy immediately fades from your mind with no effect."
+			]
+		},
+		{
+			"name": "Spell Channel",
+			"className": "Theurge",
+			"subclassShortName": "Spell Siphon",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"subclassSource": "KoboldPressDeepMagicVolume12023",
+			"level": 6,
+			"entries": [
+				"Starting at 6th level, you can immediately use the stored spell energy that you absorbed when using Spell Siphon to cast the siphoned spell, as if you are casting it yourself. Doing so does not expend one of your spell slots or require any material components. Once you cast a spell in this way, the spell energy immediately vanishes from your mind and cannot be transferred into your theurgic libram.",
+				"You can use this feature once per short or long rest."
+			]
+		},
+		{
+			"name": "Spell Fizzle",
+			"className": "Theurge",
+			"subclassShortName": "Spell Siphon",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"subclassSource": "KoboldPressDeepMagicVolume12023",
+			"level": 10,
+			"entries": [
+				"Beginning at 10th level, if a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw against your spell save DC. (The creature uses its spellcasting ability for the save.) If the creature fails the save, you negate the spell’s effect against you. If the spell includes other creatures in its area of effect, and the saving throw fails by 5 or more, you can choose to negate the spell’s effect on them as well.",
+				"You can use Spell Fizzle up to a number of times equal to half your proficiency bonus (rounded down). You regain any expended uses once you finish a long rest."
+			]
+		},
+		{
+			"name": "Spell Cache",
+			"className": "Theurge",
+			"subclassShortName": "Spell Siphon",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"subclassSource": "KoboldPressDeepMagicVolume12023",
+			"level": 14,
+			"entries": [
+				"Beginning at 14th level, a successful use of Spell Siphon allows you to replace a spell currently in your theurgic libram with the newly siphoned spell as normal. However, the spell knowledge does not immediately vanish. Instead, you can store the spell within you for a number of rounds equal to your proficiency bonus.",
+				"As an action, you can release this spell energy on your turn to cast the spell, as if you are casting it yourself. Doing so does not expend one of your spell slots nor require any material components. Once you release the spell energy to cast the spell, the energy vanishes from your mind. If you do not cast the spell within the allotted number of rounds, the spell energy fades from your mind with no effect.",
+				"You can do this a number of times equal to half your proficiency bonus (rounded down). You can’t do so again until you finish a long rest."
+			]
+		}
+	],
+	"subclassFluff": [
+		{
+			"name": "Dweomercrafter",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"entries": [
+				"Due to your extensive research into magic, you have discovered dweomercraft—esoteric methods that allow you to shape, sculpt, and otherwise modify your spells."
+			]
+		},
+		{
+			"name": "Mystic",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"entries": [
+				"You have learned how to unlock and harness the mystical potential of the mind. This mystical power manifests as a third eye, through which you can unleash psionic abilities."
+			]
+		},
+		{
+			"name": "Spell Siphon",
+			"className": "Theurge",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "KoboldPressDeepMagicVolume12023",
+			"entries": [
+				"Your insatiable thirst for new and expanded spell options has led you to discover how to siphon spell energy and knowledge directly from other spellcasters."
+			]
+		}
+	],
 	"background": [],
 	"backgroundFeature": [],
 	"backgroundFluff": [],
 	"spell": [],
-	"spellFluff": [],
-	"spellList": [],
-	"monster": [],
-	"monsterfeatures": [],
-	"monsterFluff": [],
-	"book": [],
-	"bookData": [],
-	"table": []
+	"spellList": []
 }
