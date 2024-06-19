@@ -20,6 +20,11 @@
 				"color": "27FF00"
 			}
 		],
+		"optionalFeatureTypes": {
+			"TSE": "The Six Elixirs",
+			"EM": "Elemental Masteries",
+			"AS": "Angelic Seals"
+		},
 		"status": "wip",
 		"dateAdded": 0,
 		"dateLastModified": 0
@@ -565,6 +570,217 @@
 				"Spell Channel|Theurge|KoboldPressDeepMagicVolume12023|Spell Siphon|KoboldPressDeepMagicVolume12023|6",
 				"Spell Fizzle|Theurge|KoboldPressDeepMagicVolume12023|Spell Siphon|KoboldPressDeepMagicVolume12023|10",
 				"Spell Cache|Theurge|KoboldPressDeepMagicVolume12023|Spell Siphon|KoboldPressDeepMagicVolume12023|14"
+			]
+		},
+		{
+			"name": "Alkemancer",
+			"shortName": "Alkemancer",
+			"className": "Wizard",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "PHP",
+			"page": 15,
+			"subclassFeatures": [
+				"Alchemical Savant|Wizard||Alkemancer|KoboldPressDeepMagicVolume12023|2",
+				"Skilled Alchemist|Wizard||Alkemancer|KoboldPressDeepMagicVolume12023|2",
+				"Essence Mastery|Wizard||Alkemancer|KoboldPressDeepMagicVolume12023|6",
+				"Craft Minor Elixir|Wizard||Alkemancer|KoboldPressDeepMagicVolume12023|10",
+				"Path of the Golden Glower|Wizard||Alkemancer|KoboldPressDeepMagicVolume12023|14"
+			]
+		},
+		{
+			"name": "Blood Mage",
+			"shortName": "Blood Mage",
+			"className": "Wizard",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "PHP",
+			"page": 18,
+			"subclassFeatures": [
+				"Blood Savant|Wizard||Blood Mage|KoboldPressDeepMagicVolume12023|2",
+				"Bonus Proficiency|Wizard||Blood Mage|KoboldPressDeepMagicVolume12023|2",
+				"Internal Fortitude|Wizard||Blood Mage|KoboldPressDeepMagicVolume12023|2",
+				"Blood Vision|Wizard||Blood Mage|KoboldPressDeepMagicVolume12023|6",
+				"Absorb Toxins|Wizard||Blood Mage|KoboldPressDeepMagicVolume12023|10",
+				"Thicken or Quicken Blood|Wizard||Blood Mage|KoboldPressDeepMagicVolume12023|14"
+			]
+		},
+		{
+			"name": "Dragon Mage",
+			"shortName": "Dragon Mage",
+			"className": "Wizard",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "PHP",
+			"page": 18,
+			"subclassFeatures": [
+				"Dragon Magic Savant|Wizard||Dragon Mage|KoboldPressDeepMagicVolume12023|2",
+				"Invoke Dragon Mask|Wizard||Dragon Mage|KoboldPressDeepMagicVolume12023|2",
+				"Invoke Dragon Heart|Wizard||Dragon Mage|KoboldPressDeepMagicVolume12023|6",
+				"Invoke Dragon Wings|Wizard||Dragon Mage|KoboldPressDeepMagicVolume12023|10",
+				"Invoke Dragon Tail|Wizard||Dragon Mage|KoboldPressDeepMagicVolume12023|14"
+			]
+		},
+		{
+			"name": "Elementalist",
+			"shortName": "Elementalist",
+			"className": "Wizard",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "PHP",
+			"page": 21,
+			"subclassFeatures": [
+				"Elemental Savant|Wizard||Elementalist|KoboldPressDeepMagicVolume12023|2",
+				"Elemental Mastery|Wizard||Elementalist|KoboldPressDeepMagicVolume12023|2",
+				"Substitute Elements|Wizard||Elementalist|KoboldPressDeepMagicVolume12023|6",
+				"Absorb Elements|Wizard||Elementalist|KoboldPressDeepMagicVolume12023|10",
+				"Irresistible Strike|Wizard||Elementalist|KoboldPressDeepMagicVolume12023|14"
+			]
+		},
+		{
+			"name": "Entropist",
+			"shortName": "Entropist",
+			"className": "Wizard",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "PHP",
+			"page": 23,
+			"subclassFeatures": [
+				"Chaos Magic Savant|Wizard||Entropist|KoboldPressDeepMagicVolume12023|2",
+				"Long Odds|Wizard||Entropist|KoboldPressDeepMagicVolume12023|2",
+				"Twisted Arcana|Wizard||Entropist|KoboldPressDeepMagicVolume12023|6",
+				"Shifting Resistance|Wizard||Entropist|KoboldPressDeepMagicVolume12023|10",
+				"Master of Chaos|Wizard||Entropist|KoboldPressDeepMagicVolume12023|14"
+			]
+		},
+		{
+			"name": "Illuminator",
+			"shortName": "Illuminator",
+			"className": "Wizard",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "PHP",
+			"page": 24,
+			"subclassFeatures": [
+				"Illumination Magic Savant|Wizard||Illuminator|KoboldPressDeepMagicVolume12023|2",
+				"Omen of Warning|Wizard||Illuminator|KoboldPressDeepMagicVolume12023|2",
+				"Master of the Radiant Heavens|Wizard||Illuminator|KoboldPressDeepMagicVolume12023|6",
+				"Illusions of Permanence|Wizard||Illuminator|KoboldPressDeepMagicVolume12023|10",
+				"Comprehension of the Starry Sky|Wizard||Illuminator|KoboldPressDeepMagicVolume12023|14"
+			]
+		},
+		{
+			"name": "Master of Fiends",
+			"shortName": "Master of Fiends",
+			"className": "Wizard",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "PHP",
+			"page": 25,
+			"subclassFeatures": [
+				"Dark Arts|Wizard||Master of Fiends|KoboldPressDeepMagicVolume12023|2",
+				"Fiendish Presence|Wizard||Master of Fiends|KoboldPressDeepMagicVolume12023|2",
+				"Hellbound|Wizard||Master of Fiends|KoboldPressDeepMagicVolume12023|2",
+				"Communion at the Crossroads|Wizard||Master of Fiends|KoboldPressDeepMagicVolume12023|6",
+				"Planar Defense|Wizard||Master of Fiends|KoboldPressDeepMagicVolume12023|10",
+				"Master of Dark Conjuration|Wizard||Master of Fiends|KoboldPressDeepMagicVolume12023|14"
+			]
+		},
+		{
+			"name": "Necrophage",
+			"shortName": "Necrophage",
+			"className": "Wizard",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "PHP",
+			"page": 27,
+			"subclassFeatures": [
+				"Undead Familiar|Wizard||Necrophage|KoboldPressDeepMagicVolume12023|2",
+				"Memory of Flesh|Wizard||Necrophage|KoboldPressDeepMagicVolume12023|6",
+				"Fruit of the Mind|Wizard||Necrophage|KoboldPressDeepMagicVolume12023|10",
+				"Feed on Life|Wizard||Necrophage|KoboldPressDeepMagicVolume12023|14"
+			]
+		},
+		{
+			"name": "Ring Warden",
+			"shortName": "Ring Warden",
+			"className": "Wizard",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "PHP",
+			"page": 28,
+			"subclassFeatures": [
+				"Transmutation Savant|Wizard||Ring Warden|KoboldPressDeepMagicVolume12023|2",
+				"Ring Savant|Wizard||Ring Warden|KoboldPressDeepMagicVolume12023|2",
+				"Bonus Proficiency|Wizard||Ring Warden|KoboldPressDeepMagicVolume12023|2",
+				"Bonded Ring-Staff|Wizard||Ring Warden|KoboldPressDeepMagicVolume12023|2",
+				"Master Metalsmith|Wizard||Ring Warden|KoboldPressDeepMagicVolume12023|6",
+				"Imbue Ring|Wizard||Ring Warden|KoboldPressDeepMagicVolume12023|10",
+				"Ring Bond|Wizard||Ring Warden|KoboldPressDeepMagicVolume12023|14"
+			]
+		},
+		{
+			"name": "Timekeeper",
+			"shortName": "Timekeeper",
+			"className": "Wizard",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "PHP",
+			"page": 29,
+			"subclassFeatures": [
+				"Temporal Magic Savant|Wizard||Timekeeper|KoboldPressDeepMagicVolume12023|2",
+				"Temporal Points|Wizard||Timekeeper|KoboldPressDeepMagicVolume12023|2",
+				"Extended Magic|Wizard||Timekeeper|KoboldPressDeepMagicVolume12023|6",
+				"Hastened|Wizard||Timekeeper|KoboldPressDeepMagicVolume12023|10",
+				"Time Mastery|Wizard||Timekeeper|KoboldPressDeepMagicVolume12023|14"
+			]
+		},
+		{
+			"name": "White Necromancer",
+			"shortName": "White Necromancer",
+			"className": "Wizard",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "PHP",
+			"page": 30,
+			"subclassFeatures": [
+				"Necromancy Savant|Wizard||White Necromancer|KoboldPressDeepMagicVolume12023|2",
+				"Lore of Life and Death|Wizard||White Necromancer|KoboldPressDeepMagicVolume12023|2",
+				"Rebuke Death|Wizard||White Necromancer|KoboldPressDeepMagicVolume12023|2",
+				"White Necromancy|Wizard||White Necromancer|KoboldPressDeepMagicVolume12023|6",
+				"Life Bond|Wizard||White Necromancer|KoboldPressDeepMagicVolume12023|10",
+				"Protect Life|Wizard||White Necromancer|KoboldPressDeepMagicVolume12023|14"
+			]
+		},
+		{
+			"name": "College of Wyrdsingers",
+			"shortName": "Wyrdsingers",
+			"className": "Bard",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "PHP",
+			"page": 31,
+			"subclassFeatures": [
+				"Inspire Greatness|Bard||Wyrdsingers|KoboldPressDeepMagicVolume12023|3",
+				"Not This Day|Bard||Wyrdsingers|KoboldPressDeepMagicVolume12023|6",
+				"Make Your Own Fate|Bard||Wyrdsingers|KoboldPressDeepMagicVolume12023|14"
+			]
+		},
+		{
+			"name": "Greenleaf College",
+			"shortName": "Greenleaf",
+			"className": "Bard",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "PHP",
+			"page": 32,
+			"subclassFeatures": [
+				"Bonus Proficiencies|Bard||Greenleaf|KoboldPressDeepMagicVolume12023|3",
+				"Rejuvenating Inspiration|Bard||Greenleaf|KoboldPressDeepMagicVolume12023|3",
+				"Land’s Stride|Bard||Greenleaf|KoboldPressDeepMagicVolume12023|6",
+				"Vital Surge|Bard||Greenleaf|KoboldPressDeepMagicVolume12023|14"
+			]
+		},
+		{
+			"name": "Angelic Scribe",
+			"shortName": "Angelic Scribe",
+			"className": "Cleric",
+			"source": "KoboldPressDeepMagicVolume12023",
+			"classSource": "PHP",
+			"page": 32,
+			"subclassFeatures": [
+				"Angelic Savant|Cleric||Angelic Scribe|KoboldPressDeepMagicVolume12023|2",
+				"Seal Scribe|Cleric||Angelic Scribe|KoboldPressDeepMagicVolume12023|2",
+				"Warding Seal|Cleric||Angelic Scribe|KoboldPressDeepMagicVolume12023|6",
+				"Greater Seal|Cleric||Angelic Scribe|KoboldPressDeepMagicVolume12023|10",
+				"Angelic Wrath|Cleric||Angelic Scribe|KoboldPressDeepMagicVolume12023|14"
 			]
 		}
 	],
